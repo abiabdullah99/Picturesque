@@ -1,0 +1,56 @@
+.banner-info {
+  display: flex;
+  width: 100%;
+  margin: 100px auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-text {
+  justify-content: center;
+  margin: 0 auto;
+}
+.banner-img img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100% 100% 0% 0%;
+  margin: 60px auto;
+  box-shadow: 5px 0px 15px 0px #11dede;
+}
+.banner-img {
+  flex: 1;
+}
+.banner-text h2 {
+  color: #fff;
+  font-size: 50px;
+  padding: 10px 0px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.banner-text h1 {
+  color: #fff;
+  font-size: 21px;
+  text-align: center;
+}
+.banner-text h3 {
+  color: #11dede;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 600;
+}
+span {
+  color: #11dede;
+}
+.banner-btn {
+  border: none;
+  color: #fff;
+  background-color: #11dede;
+  padding: 10px 20px;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 30px;
+  cursor: pointer;
+}

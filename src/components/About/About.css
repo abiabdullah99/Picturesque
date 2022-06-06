@@ -1,0 +1,17 @@
+.about-section{
+    width: 30%;
+    margin: auto;
+}
+.about-section img{
+    width: 60%;
+    height: 70%;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 0px 15px 0px #11dede;
+}
+
+@media screen and (max-width:688px) {
+    .about-section{
+        width: 80%;
+    }
+}

@@ -1,0 +1,89 @@
+.pricing-items {
+  box-shadow: 2px 2px 3px 2px #11dede;
+  width: 350px;
+  height: 580px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.pricing-info {
+  display: flex;
+  width: 85%;
+  margin: 70px auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.pricing-container {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.pricing-container h1 {
+  font-size: 43px;
+  color: #fff;
+  text-align: center;
+}
+.pricing-container h3 {
+  font-size: 21px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+.pricing-items h1 {
+  font-size: 44px;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0px;
+  margin-top: 20px;
+}
+.pricing-items h2 {
+  font-size: 35px;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.popular::before {
+  content: "Hot";
+  position: absolute;
+  font-size: 19px;
+  top: 0px;
+  right: 20px;
+  background-color: orange;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 30px;
+}
+.pricing-items p {
+  color: #fff;
+  font-size: 19px;
+  padding: 5px 0px;
+  text-align: center;
+}
+hr {
+  border: 1px solid #11dede;
+  width: 280px;
+  margin: 2px auto;
+}
+.pricing-btn {
+  width: 70%;
+  padding: 10px 0px;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #11dede;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 688px) {
+  .pricing-info {
+    flex-direction: column;
+  }
+  .pricing-items {
+    margin-bottom: 50px;
+  }
+}

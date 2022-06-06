@@ -1,0 +1,89 @@
+.login-title {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 29px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+.form-container {
+  width: 80%;
+  margin: 30px auto;
+}
+.form-info {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 15px;
+  background: #0A0F1E;
+  box-shadow:  10px 10px 10px #030303,
+               -27px -27px 73px #000000;
+}
+.form-info input {
+  width: 100%;
+  margin: auto;
+  background-color: transparent;
+  border: 3px solid #11dede;
+  border-radius: 30px;
+  color: #11dede;
+  font-size: 18px;
+  padding: 14px 10px;
+  margin-bottom: 20px;
+}
+.login-btn {
+  color: #fff;
+  background-color: #11dede;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 10px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  border: 2px solid #11dede;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s linear;
+}
+.social-btn{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  background-color: #11dede;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 10px;
+  padding-left: 15px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  border: 2px solid #11dede;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s linear;
+}
+.google{
+    background-color: #11dede;
+}
+.login-btn:hover {
+  background-color: transparent;
+}
+.error {
+  font-size: 16px;
+  color: tomato;
+}
+.pass {
+  position: relative;
+}
+.show-pass {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.sent {
+  color: #fff;
+  border: 2px solid #11dede;
+  width: 50%;
+  padding: 5px 10px;
+  margin: 10px auto;
+}

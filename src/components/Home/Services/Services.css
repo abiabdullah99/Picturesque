@@ -1,0 +1,57 @@
+.service h1{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+.service h2{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.service-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 20px auto;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    margin: 40px 20px;
+    align-items: center;
+}
+.icons h2{
+    color: #11dede;
+}
+.icons h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 3px 2px #11dede;
+    margin: 30px 20px;
+    width: 350px;
+    height: 220px;
+    border-radius: 8px;
+}
+.text p {
+    color: #dcf6fa;
+    padding: 0px 30px;
+    font-size: 17px;
+    margin-top: -20px;
+    text-align: justify;
+}
+
+@media screen and (max-width:688px) {
+    .service-info{
+        grid-template-columns: 1fr;
+    }
+}
